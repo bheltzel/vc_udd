@@ -1,1 +1,814 @@
-{"id":283,"user_id":206,"title":"Liverpool","description":null,"readonly":false,"hidden":false,"refresh_interval":null,"refresh_interval_to_i":null,"content_metadata_id":1455,"query_timezone":null,"space":{"id":241,"creator_id":206,"name":"Bryce Heltzel","parent_id":2,"content_metadata_id":872,"is_personal":true,"is_shared_root":false,"is_users_root":false,"is_personal_descendant":false,"is_embed":false,"is_embed_shared_root":false,"is_embed_users_root":false,"external_id":null,"child_count":0,"is_user_root":false,"is_root":false,"can":{"index":true,"show":true,"create":true,"see_admin_spaces":true,"update":false,"destroy":false,"move_content":true,"edit_content":true}},"space_id":241,"view_count":13,"favorite_count":0,"slug":"hlbWnrAu4ePeIUZZEuvKY4","dashboard_elements":[{"id":1546,"dashboard_id":283,"look_id":null,"type":"vis","refresh_interval":null,"refresh_interval_to_i":null,"note_text":null,"note_text_as_html":null,"note_display":null,"note_state":null,"title_hidden":false,"title_text":null,"title":"Liverpool Goals by Gameweek","subtitle_text":null,"body_text":null,"body_text_as_html":null,"look":null,"query":{"id":120774,"view":"players","fields":["players_detail.total_goals_scored","players.web_name","players_detail.round"],"pivots":["players.web_name"],"fill_fields":null,"filters":{"teams.name":"Liverpool","players.total_goals_scored_tier":"-Below 1"},"filter_expression":null,"sorts":["fixtures.event","players.web_name"],"limit":"500","column_limit":null,"total":null,"row_total":null,"subtotals":null,"runtime":1.548030138015747,"vis_config":{"stacking":"normal","show_value_labels":false,"label_density":25,"legend_position":"center","x_axis_gridlines":false,"y_axis_gridlines":true,"show_view_names":false,"limit_displayed_rows":false,"y_axis_combined":true,"show_y_axis_labels":true,"show_y_axis_ticks":true,"y_axis_tick_density":"default","y_axis_tick_density_custom":5,"show_x_axis_label":true,"show_x_axis_ticks":true,"x_axis_scale":"auto","y_axis_scale_mode":"linear","x_axis_reversed":false,"y_axis_reversed":false,"ordering":"none","show_null_labels":false,"show_totals_labels":false,"show_silhouette":false,"totals_color":"#808080","show_row_numbers":true,"truncate_column_names":false,"hide_totals":false,"hide_row_totals":false,"table_theme":"editable","enable_conditional_formatting":false,"conditional_formatting_include_totals":false,"conditional_formatting_include_nulls":false,"type":"looker_column","series_types":{},"hidden_series":[],"colors":["palette: Tomato to Steel Blue"],"series_colors":{}},"filter_config":{"teams.name":[{"type":"=","values":[{"constant":"Liverpool"},{}],"id":0,"error":false}],"players.total_goals_scored_tier":[{"type":"!is","values":[{"constant":"Below 1"}],"id":3,"error":false}]},"visible_ui_sections":null,"slug":"9pPYK9H","dynamic_fields":null,"client_id":"cmhGt99lZVbt6dAHBirgMG","share_url":"https://saleseng.dev.looker.com/x/cmhGt99lZVbt6dAHBirgMG","expanded_share_url":"https://saleseng.dev.looker.com/explore/fntsypl/players?fields=players_detail.total_goals_scored,players.web_name,players_detail.round&pivots=players.web_name&f[teams.name]=Liverpool&f[players.total_goals_scored_tier]=-Below+1&sorts=fixtures.event,players.web_name&limit=500&query_timezone=America%2FLos_Angeles&vis=%7B%22stacking%22%3A%22normal%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22limit_displayed_rows%22%3Afalse%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22show_row_numbers%22%3Atrue%2C%22truncate_column_names%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22table_theme%22%3A%22editable%22%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22type%22%3A%22looker_column%22%2C%22series_types%22%3A%7B%7D%2C%22hidden_series%22%3A%5B%5D%2C%22colors%22%3A%5B%22palette%3A+Tomato+to+Steel+Blue%22%5D%2C%22series_colors%22%3A%7B%7D%7D&filter_config=%7B%22teams.name%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Liverpool%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%2C%22players.total_goals_scored_tier%22%3A%5B%7B%22type%22%3A%22%21is%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Below+1%22%7D%5D%2C%22id%22%3A3%2C%22error%22%3Afalse%7D%5D%7D&origin=share-expanded","url":"/explore/fntsypl/players?fields=players_detail.total_goals_scored,players.web_name,players_detail.round&pivots=players.web_name&f[teams.name]=Liverpool&f[players.total_goals_scored_tier]=-Below+1&sorts=fixtures.event,players.web_name&limit=500&query_timezone=America%2FLos_Angeles&vis=%7B%22stacking%22%3A%22normal%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22limit_displayed_rows%22%3Afalse%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22show_row_numbers%22%3Atrue%2C%22truncate_column_names%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22table_theme%22%3A%22editable%22%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22type%22%3A%22looker_column%22%2C%22series_types%22%3A%7B%7D%2C%22hidden_series%22%3A%5B%5D%2C%22colors%22%3A%5B%22palette%3A+Tomato+to+Steel+Blue%22%5D%2C%22series_colors%22%3A%7B%7D%7D&filter_config=%7B%22teams.name%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Liverpool%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%2C%22players.total_goals_scored_tier%22%3A%5B%7B%22type%22%3A%22%21is%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Below+1%22%7D%5D%2C%22id%22%3A3%2C%22error%22%3Afalse%7D%5D%7D","query_timezone":"America/Los_Angeles","has_table_calculations":false,"model":"fntsypl","can":{"run":true,"see_results":true,"explore":true,"create":true,"show":true,"cost_estimate":true,"index":true,"see_lookml":true,"see_derived_table_lookml":true,"see_sql":true,"generate_drill_links":true,"download":true,"use_custom_fields":true,"render":true}},"query_id":120774,"edit_uri":null,"merge_result_id":null,"result_maker_id":4524,"result_maker":{"id":4524,"dynamic_fields":null,"filterables":[{"model":"fntsypl","view":"players","name":null,"listen":[],"can":{}}],"sorts":["fixtures.event","players.web_name"],"merge_result_id":null,"total":null,"query_id":120774,"query":{"id":120774,"view":"players","fields":["players_detail.total_goals_scored","players.web_name","players_detail.round"],"pivots":["players.web_name"],"fill_fields":null,"filters":{"teams.name":"Liverpool","players.total_goals_scored_tier":"-Below 1"},"filter_expression":null,"sorts":["fixtures.event","players.web_name"],"limit":"500","column_limit":null,"total":null,"row_total":null,"subtotals":null,"runtime":1.548030138015747,"vis_config":{"stacking":"normal","show_value_labels":false,"label_density":25,"legend_position":"center","x_axis_gridlines":false,"y_axis_gridlines":true,"show_view_names":false,"limit_displayed_rows":false,"y_axis_combined":true,"show_y_axis_labels":true,"show_y_axis_ticks":true,"y_axis_tick_density":"default","y_axis_tick_density_custom":5,"show_x_axis_label":true,"show_x_axis_ticks":true,"x_axis_scale":"auto","y_axis_scale_mode":"linear","x_axis_reversed":false,"y_axis_reversed":false,"ordering":"none","show_null_labels":false,"show_totals_labels":false,"show_silhouette":false,"totals_color":"#808080","show_row_numbers":true,"truncate_column_names":false,"hide_totals":false,"hide_row_totals":false,"table_theme":"editable","enable_conditional_formatting":false,"conditional_formatting_include_totals":false,"conditional_formatting_include_nulls":false,"type":"looker_column","series_types":{},"hidden_series":[],"colors":["palette: Tomato to Steel Blue"],"series_colors":{}},"filter_config":{"teams.name":[{"type":"=","values":[{"constant":"Liverpool"},{}],"id":0,"error":false}],"players.total_goals_scored_tier":[{"type":"!is","values":[{"constant":"Below 1"}],"id":3,"error":false}]},"visible_ui_sections":null,"slug":"9pPYK9H","dynamic_fields":null,"client_id":"cmhGt99lZVbt6dAHBirgMG","share_url":"https://saleseng.dev.looker.com/x/cmhGt99lZVbt6dAHBirgMG","expanded_share_url":"https://saleseng.dev.looker.com/explore/fntsypl/players?fields=players_detail.total_goals_scored,players.web_name,players_detail.round&pivots=players.web_name&f[teams.name]=Liverpool&f[players.total_goals_scored_tier]=-Below+1&sorts=fixtures.event,players.web_name&limit=500&query_timezone=America%2FLos_Angeles&vis=%7B%22stacking%22%3A%22normal%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22limit_displayed_rows%22%3Afalse%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22show_row_numbers%22%3Atrue%2C%22truncate_column_names%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22table_theme%22%3A%22editable%22%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22type%22%3A%22looker_column%22%2C%22series_types%22%3A%7B%7D%2C%22hidden_series%22%3A%5B%5D%2C%22colors%22%3A%5B%22palette%3A+Tomato+to+Steel+Blue%22%5D%2C%22series_colors%22%3A%7B%7D%7D&filter_config=%7B%22teams.name%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Liverpool%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%2C%22players.total_goals_scored_tier%22%3A%5B%7B%22type%22%3A%22%21is%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Below+1%22%7D%5D%2C%22id%22%3A3%2C%22error%22%3Afalse%7D%5D%7D&origin=share-expanded","url":"/explore/fntsypl/players?fields=players_detail.total_goals_scored,players.web_name,players_detail.round&pivots=players.web_name&f[teams.name]=Liverpool&f[players.total_goals_scored_tier]=-Below+1&sorts=fixtures.event,players.web_name&limit=500&query_timezone=America%2FLos_Angeles&vis=%7B%22stacking%22%3A%22normal%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22limit_displayed_rows%22%3Afalse%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22show_row_numbers%22%3Atrue%2C%22truncate_column_names%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22table_theme%22%3A%22editable%22%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22type%22%3A%22looker_column%22%2C%22series_types%22%3A%7B%7D%2C%22hidden_series%22%3A%5B%5D%2C%22colors%22%3A%5B%22palette%3A+Tomato+to+Steel+Blue%22%5D%2C%22series_colors%22%3A%7B%7D%7D&filter_config=%7B%22teams.name%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Liverpool%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%2C%22players.total_goals_scored_tier%22%3A%5B%7B%22type%22%3A%22%21is%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Below+1%22%7D%5D%2C%22id%22%3A3%2C%22error%22%3Afalse%7D%5D%7D","query_timezone":"America/Los_Angeles","has_table_calculations":false,"model":"fntsypl","can":{"run":true,"see_results":true,"explore":true,"create":true,"show":true,"cost_estimate":true,"index":true,"see_lookml":true,"see_derived_table_lookml":true,"see_sql":true,"generate_drill_links":true,"download":true,"use_custom_fields":true,"render":true}},"vis_config":{"stacking":"normal","show_value_labels":false,"label_density":25,"legend_position":"center","x_axis_gridlines":false,"y_axis_gridlines":true,"show_view_names":false,"limit_displayed_rows":false,"y_axis_combined":true,"show_y_axis_labels":true,"show_y_axis_ticks":true,"y_axis_tick_density":"default","y_axis_tick_density_custom":5,"show_x_axis_label":true,"show_x_axis_ticks":true,"x_axis_scale":"auto","y_axis_scale_mode":"linear","x_axis_reversed":false,"y_axis_reversed":false,"ordering":"none","show_null_labels":false,"show_totals_labels":false,"show_silhouette":false,"totals_color":"#808080","show_row_numbers":true,"truncate_column_names":false,"hide_totals":false,"hide_row_totals":false,"table_theme":"editable","enable_conditional_formatting":false,"conditional_formatting_include_totals":false,"conditional_formatting_include_nulls":false,"type":"looker_column","series_types":{},"hidden_series":[],"colors":["palette: Tomato to Steel Blue"],"series_colors":{}},"can":{}},"can":{"create":true,"update":true,"destroy":true,"index":true,"show":true,"explore":true,"run":false,"show_errors":true,"find_and_replace":true}},{"id":3004,"dashboard_id":283,"look_id":null,"type":"vis","refresh_interval":null,"refresh_interval_to_i":null,"note_text":null,"note_text_as_html":null,"note_display":null,"note_state":null,"title_hidden":false,"title_text":null,"title":"Arsenal Goals by Gameweek","subtitle_text":null,"body_text":null,"body_text_as_html":null,"look":null,"query":{"id":120777,"view":"players","fields":["players_detail.total_goals_scored","players.web_name","players_detail.round"],"pivots":["players.web_name"],"fill_fields":null,"filters":{"teams.name":"Arsenal","players.total_goals_scored_tier":"-Below 1"},"filter_expression":null,"sorts":["players.web_name","players_detail.total_goals_scored desc 0"],"limit":"500","column_limit":null,"total":null,"row_total":null,"subtotals":null,"runtime":1.8156371116638184,"vis_config":{"stacking":"normal","show_value_labels":false,"label_density":25,"legend_position":"center","x_axis_gridlines":false,"y_axis_gridlines":true,"show_view_names":false,"limit_displayed_rows":false,"y_axis_combined":true,"show_y_axis_labels":true,"show_y_axis_ticks":true,"y_axis_tick_density":"default","y_axis_tick_density_custom":5,"show_x_axis_label":true,"show_x_axis_ticks":true,"x_axis_scale":"auto","y_axis_scale_mode":"linear","x_axis_reversed":false,"y_axis_reversed":false,"ordering":"none","show_null_labels":false,"show_totals_labels":false,"show_silhouette":false,"totals_color":"#808080","show_row_numbers":true,"truncate_column_names":false,"hide_totals":false,"hide_row_totals":false,"table_theme":"editable","enable_conditional_formatting":false,"conditional_formatting_include_totals":false,"conditional_formatting_include_nulls":false,"type":"looker_column","series_types":{},"hidden_series":[],"colors":["palette: Tomato to Steel Blue"],"series_colors":{}},"filter_config":{"teams.name":[{"type":"=","values":[{"constant":"Arsenal"},{}],"id":0,"error":false}],"players.total_goals_scored_tier":[{"type":"!is","values":[{"constant":"Below 1"}],"id":3,"error":false}]},"visible_ui_sections":null,"slug":"Hy5wH4C","dynamic_fields":null,"client_id":"9qH6nOltDwkfTO0jKBpzdP","share_url":"https://saleseng.dev.looker.com/x/9qH6nOltDwkfTO0jKBpzdP","expanded_share_url":"https://saleseng.dev.looker.com/explore/fntsypl/players?fields=players_detail.total_goals_scored,players.web_name,players_detail.round&pivots=players.web_name&f[teams.name]=Arsenal&f[players.total_goals_scored_tier]=-Below+1&sorts=players.web_name,players_detail.total_goals_scored+desc+0&limit=500&query_timezone=America%2FLos_Angeles&vis=%7B%22stacking%22%3A%22normal%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22limit_displayed_rows%22%3Afalse%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22show_row_numbers%22%3Atrue%2C%22truncate_column_names%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22table_theme%22%3A%22editable%22%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22type%22%3A%22looker_column%22%2C%22series_types%22%3A%7B%7D%2C%22hidden_series%22%3A%5B%5D%2C%22colors%22%3A%5B%22palette%3A+Tomato+to+Steel+Blue%22%5D%2C%22series_colors%22%3A%7B%7D%7D&filter_config=%7B%22teams.name%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Arsenal%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%2C%22players.total_goals_scored_tier%22%3A%5B%7B%22type%22%3A%22%21is%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Below+1%22%7D%5D%2C%22id%22%3A3%2C%22error%22%3Afalse%7D%5D%7D&origin=share-expanded","url":"/explore/fntsypl/players?fields=players_detail.total_goals_scored,players.web_name,players_detail.round&pivots=players.web_name&f[teams.name]=Arsenal&f[players.total_goals_scored_tier]=-Below+1&sorts=players.web_name,players_detail.total_goals_scored+desc+0&limit=500&query_timezone=America%2FLos_Angeles&vis=%7B%22stacking%22%3A%22normal%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22limit_displayed_rows%22%3Afalse%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22show_row_numbers%22%3Atrue%2C%22truncate_column_names%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22table_theme%22%3A%22editable%22%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22type%22%3A%22looker_column%22%2C%22series_types%22%3A%7B%7D%2C%22hidden_series%22%3A%5B%5D%2C%22colors%22%3A%5B%22palette%3A+Tomato+to+Steel+Blue%22%5D%2C%22series_colors%22%3A%7B%7D%7D&filter_config=%7B%22teams.name%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Arsenal%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%2C%22players.total_goals_scored_tier%22%3A%5B%7B%22type%22%3A%22%21is%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Below+1%22%7D%5D%2C%22id%22%3A3%2C%22error%22%3Afalse%7D%5D%7D","query_timezone":"America/Los_Angeles","has_table_calculations":false,"model":"fntsypl","can":{"run":true,"see_results":true,"explore":true,"create":true,"show":true,"cost_estimate":true,"index":true,"see_lookml":true,"see_derived_table_lookml":true,"see_sql":true,"generate_drill_links":true,"download":true,"use_custom_fields":true,"render":true}},"query_id":120777,"edit_uri":null,"merge_result_id":null,"result_maker_id":4525,"result_maker":{"id":4525,"dynamic_fields":null,"filterables":[{"model":"fntsypl","view":"players","name":null,"listen":[],"can":{}}],"sorts":["players.web_name","players_detail.total_goals_scored desc 0"],"merge_result_id":null,"total":null,"query_id":120777,"query":{"id":120777,"view":"players","fields":["players_detail.total_goals_scored","players.web_name","players_detail.round"],"pivots":["players.web_name"],"fill_fields":null,"filters":{"teams.name":"Arsenal","players.total_goals_scored_tier":"-Below 1"},"filter_expression":null,"sorts":["players.web_name","players_detail.total_goals_scored desc 0"],"limit":"500","column_limit":null,"total":null,"row_total":null,"subtotals":null,"runtime":1.8156371116638184,"vis_config":{"stacking":"normal","show_value_labels":false,"label_density":25,"legend_position":"center","x_axis_gridlines":false,"y_axis_gridlines":true,"show_view_names":false,"limit_displayed_rows":false,"y_axis_combined":true,"show_y_axis_labels":true,"show_y_axis_ticks":true,"y_axis_tick_density":"default","y_axis_tick_density_custom":5,"show_x_axis_label":true,"show_x_axis_ticks":true,"x_axis_scale":"auto","y_axis_scale_mode":"linear","x_axis_reversed":false,"y_axis_reversed":false,"ordering":"none","show_null_labels":false,"show_totals_labels":false,"show_silhouette":false,"totals_color":"#808080","show_row_numbers":true,"truncate_column_names":false,"hide_totals":false,"hide_row_totals":false,"table_theme":"editable","enable_conditional_formatting":false,"conditional_formatting_include_totals":false,"conditional_formatting_include_nulls":false,"type":"looker_column","series_types":{},"hidden_series":[],"colors":["palette: Tomato to Steel Blue"],"series_colors":{}},"filter_config":{"teams.name":[{"type":"=","values":[{"constant":"Arsenal"},{}],"id":0,"error":false}],"players.total_goals_scored_tier":[{"type":"!is","values":[{"constant":"Below 1"}],"id":3,"error":false}]},"visible_ui_sections":null,"slug":"Hy5wH4C","dynamic_fields":null,"client_id":"9qH6nOltDwkfTO0jKBpzdP","share_url":"https://saleseng.dev.looker.com/x/9qH6nOltDwkfTO0jKBpzdP","expanded_share_url":"https://saleseng.dev.looker.com/explore/fntsypl/players?fields=players_detail.total_goals_scored,players.web_name,players_detail.round&pivots=players.web_name&f[teams.name]=Arsenal&f[players.total_goals_scored_tier]=-Below+1&sorts=players.web_name,players_detail.total_goals_scored+desc+0&limit=500&query_timezone=America%2FLos_Angeles&vis=%7B%22stacking%22%3A%22normal%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22limit_displayed_rows%22%3Afalse%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22show_row_numbers%22%3Atrue%2C%22truncate_column_names%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22table_theme%22%3A%22editable%22%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22type%22%3A%22looker_column%22%2C%22series_types%22%3A%7B%7D%2C%22hidden_series%22%3A%5B%5D%2C%22colors%22%3A%5B%22palette%3A+Tomato+to+Steel+Blue%22%5D%2C%22series_colors%22%3A%7B%7D%7D&filter_config=%7B%22teams.name%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Arsenal%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%2C%22players.total_goals_scored_tier%22%3A%5B%7B%22type%22%3A%22%21is%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Below+1%22%7D%5D%2C%22id%22%3A3%2C%22error%22%3Afalse%7D%5D%7D&origin=share-expanded","url":"/explore/fntsypl/players?fields=players_detail.total_goals_scored,players.web_name,players_detail.round&pivots=players.web_name&f[teams.name]=Arsenal&f[players.total_goals_scored_tier]=-Below+1&sorts=players.web_name,players_detail.total_goals_scored+desc+0&limit=500&query_timezone=America%2FLos_Angeles&vis=%7B%22stacking%22%3A%22normal%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22limit_displayed_rows%22%3Afalse%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22show_row_numbers%22%3Atrue%2C%22truncate_column_names%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22table_theme%22%3A%22editable%22%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22type%22%3A%22looker_column%22%2C%22series_types%22%3A%7B%7D%2C%22hidden_series%22%3A%5B%5D%2C%22colors%22%3A%5B%22palette%3A+Tomato+to+Steel+Blue%22%5D%2C%22series_colors%22%3A%7B%7D%7D&filter_config=%7B%22teams.name%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Arsenal%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%2C%22players.total_goals_scored_tier%22%3A%5B%7B%22type%22%3A%22%21is%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Below+1%22%7D%5D%2C%22id%22%3A3%2C%22error%22%3Afalse%7D%5D%7D","query_timezone":"America/Los_Angeles","has_table_calculations":false,"model":"fntsypl","can":{"run":true,"see_results":true,"explore":true,"create":true,"show":true,"cost_estimate":true,"index":true,"see_lookml":true,"see_derived_table_lookml":true,"see_sql":true,"generate_drill_links":true,"download":true,"use_custom_fields":true,"render":true}},"vis_config":{"stacking":"normal","show_value_labels":false,"label_density":25,"legend_position":"center","x_axis_gridlines":false,"y_axis_gridlines":true,"show_view_names":false,"limit_displayed_rows":false,"y_axis_combined":true,"show_y_axis_labels":true,"show_y_axis_ticks":true,"y_axis_tick_density":"default","y_axis_tick_density_custom":5,"show_x_axis_label":true,"show_x_axis_ticks":true,"x_axis_scale":"auto","y_axis_scale_mode":"linear","x_axis_reversed":false,"y_axis_reversed":false,"ordering":"none","show_null_labels":false,"show_totals_labels":false,"show_silhouette":false,"totals_color":"#808080","show_row_numbers":true,"truncate_column_names":false,"hide_totals":false,"hide_row_totals":false,"table_theme":"editable","enable_conditional_formatting":false,"conditional_formatting_include_totals":false,"conditional_formatting_include_nulls":false,"type":"looker_column","series_types":{},"hidden_series":[],"colors":["palette: Tomato to Steel Blue"],"series_colors":{}},"can":{}},"can":{"create":true,"update":true,"destroy":true,"index":true,"show":true,"explore":true,"run":false,"show_errors":true,"find_and_replace":true}}],"dashboard_layouts":[{"id":288,"dashboard_id":283,"type":"newspaper","active":true,"column_width":null,"width":null,"deleted":false,"dashboard_layout_components":[{"id":1565,"dashboard_layout_id":288,"dashboard_element_id":1546,"row":0,"column":12,"width":12,"height":11,"deleted":false,"can":{"index":true,"show":true,"create":true,"update":true,"destroy":true}},{"id":3035,"dashboard_layout_id":288,"dashboard_element_id":3004,"row":0,"column":0,"width":12,"height":11,"deleted":false,"can":{"index":true,"show":true,"create":true,"update":true,"destroy":true}}],"can":{"create":true,"update":true,"destroy":true,"index":true,"show":true}}],"dashboard_filters":[],"load_configuration":"cache_run","background_color":null,"show_title":null,"title_color":null,"show_filters_bar":null,"tile_background_color":null,"tile_text_color":null,"text_tile_text_color":null,"last_accessed_at":"2019-02-26T06:45:21.000+00:00","created_at":"2018-06-18T16:30:40.000+00:00","deleted_at":null,"deleter_id":null,"edit_uri":null,"lookml_link_id":null,"model":null,"content_favorite_id":null,"deleted":false,"last_viewed_at":"2019-02-26T06:45:21.000+00:00","can":{"download":true,"index":true,"show":true,"copy":true,"run":true,"create":true,"move":true,"update":true,"destroy":true,"recover":true,"see_lookml":true,"schedule":true,"render":true}}
+{
+    "id": 283,
+    "user_id": 206,
+    "title": "Liverpool",
+    "description": null,
+    "readonly": false,
+    "hidden": false,
+    "refresh_interval": null,
+    "refresh_interval_to_i": null,
+    "content_metadata_id": 1455,
+    "query_timezone": null,
+    "space": {
+        "id": 241,
+        "creator_id": 206,
+        "name": "Bryce Heltzel",
+        "parent_id": 2,
+        "content_metadata_id": 872,
+        "is_personal": true,
+        "is_shared_root": false,
+        "is_users_root": false,
+        "is_personal_descendant": false,
+        "is_embed": false,
+        "is_embed_shared_root": false,
+        "is_embed_users_root": false,
+        "external_id": null,
+        "child_count": 0,
+        "is_user_root": false,
+        "is_root": false,
+        "can": {
+            "index": true,
+            "show": true,
+            "create": true,
+            "see_admin_spaces": true,
+            "update": false,
+            "destroy": false,
+            "move_content": true,
+            "edit_content": true
+        }
+    },
+    "space_id": 241,
+    "view_count": 17,
+    "favorite_count": 0,
+    "slug": "hlbWnrAu4ePeIUZZEuvKY4",
+    "dashboard_elements": [
+        {
+            "id": 1546,
+            "dashboard_id": 283,
+            "look_id": null,
+            "type": "vis",
+            "refresh_interval": null,
+            "refresh_interval_to_i": null,
+            "note_text": null,
+            "note_text_as_html": null,
+            "note_display": null,
+            "note_state": null,
+            "title_hidden": false,
+            "title_text": null,
+            "title": "Liverpool Goals by Gameweek",
+            "subtitle_text": null,
+            "body_text": null,
+            "body_text_as_html": null,
+            "look": null,
+            "query": {
+                "id": 120774,
+                "view": "players",
+                "fields": [
+                    "players_detail.total_goals_scored",
+                    "players.web_name",
+                    "players_detail.round"
+                ],
+                "pivots": [
+                    "players.web_name"
+                ],
+                "fill_fields": null,
+                "filters": {
+                    "teams.name": "Liverpool",
+                    "players.total_goals_scored_tier": "-Below 1"
+                },
+                "filter_expression": null,
+                "sorts": [
+                    "fixtures.event",
+                    "players.web_name"
+                ],
+                "limit": "500",
+                "column_limit": null,
+                "total": null,
+                "row_total": null,
+                "subtotals": null,
+                "runtime": 0.146565,
+                "vis_config": {
+                    "stacking": "normal",
+                    "show_value_labels": false,
+                    "label_density": 25,
+                    "legend_position": "center",
+                    "x_axis_gridlines": false,
+                    "y_axis_gridlines": true,
+                    "show_view_names": false,
+                    "limit_displayed_rows": false,
+                    "y_axis_combined": true,
+                    "show_y_axis_labels": true,
+                    "show_y_axis_ticks": true,
+                    "y_axis_tick_density": "default",
+                    "y_axis_tick_density_custom": 5,
+                    "show_x_axis_label": true,
+                    "show_x_axis_ticks": true,
+                    "x_axis_scale": "auto",
+                    "y_axis_scale_mode": "linear",
+                    "x_axis_reversed": false,
+                    "y_axis_reversed": false,
+                    "ordering": "none",
+                    "show_null_labels": false,
+                    "show_totals_labels": false,
+                    "show_silhouette": false,
+                    "totals_color": "#808080",
+                    "show_row_numbers": true,
+                    "truncate_column_names": false,
+                    "hide_totals": false,
+                    "hide_row_totals": false,
+                    "table_theme": "editable",
+                    "enable_conditional_formatting": false,
+                    "conditional_formatting_include_totals": false,
+                    "conditional_formatting_include_nulls": false,
+                    "type": "looker_column",
+                    "series_types": {},
+                    "hidden_series": [],
+                    "colors": [
+                        "palette: Tomato to Steel Blue"
+                    ],
+                    "series_colors": {}
+                },
+                "filter_config": {
+                    "teams.name": [
+                        {
+                            "type": "=",
+                            "values": [
+                                {
+                                    "constant": "Liverpool"
+                                },
+                                {}
+                            ],
+                            "id": 0,
+                            "error": false
+                        }
+                    ],
+                    "players.total_goals_scored_tier": [
+                        {
+                            "type": "!is",
+                            "values": [
+                                {
+                                    "constant": "Below 1"
+                                }
+                            ],
+                            "id": 3,
+                            "error": false
+                        }
+                    ]
+                },
+                "visible_ui_sections": null,
+                "slug": "9pPYK9H",
+                "dynamic_fields": null,
+                "client_id": "cmhGt99lZVbt6dAHBirgMG",
+                "share_url": "https://saleseng.dev.looker.com/x/cmhGt99lZVbt6dAHBirgMG",
+                "expanded_share_url": "https://saleseng.dev.looker.com/explore/fntsypl/players?fields=players_detail.total_goals_scored,players.web_name,players_detail.round&pivots=players.web_name&f[teams.name]=Liverpool&f[players.total_goals_scored_tier]=-Below+1&sorts=fixtures.event,players.web_name&limit=500&query_timezone=America%2FLos_Angeles&vis=%7B%22stacking%22%3A%22normal%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22limit_displayed_rows%22%3Afalse%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22show_row_numbers%22%3Atrue%2C%22truncate_column_names%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22table_theme%22%3A%22editable%22%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22type%22%3A%22looker_column%22%2C%22series_types%22%3A%7B%7D%2C%22hidden_series%22%3A%5B%5D%2C%22colors%22%3A%5B%22palette%3A+Tomato+to+Steel+Blue%22%5D%2C%22series_colors%22%3A%7B%7D%7D&filter_config=%7B%22teams.name%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Liverpool%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%2C%22players.total_goals_scored_tier%22%3A%5B%7B%22type%22%3A%22%21is%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Below+1%22%7D%5D%2C%22id%22%3A3%2C%22error%22%3Afalse%7D%5D%7D&origin=share-expanded",
+                "url": "/explore/fntsypl/players?fields=players_detail.total_goals_scored,players.web_name,players_detail.round&pivots=players.web_name&f[teams.name]=Liverpool&f[players.total_goals_scored_tier]=-Below+1&sorts=fixtures.event,players.web_name&limit=500&query_timezone=America%2FLos_Angeles&vis=%7B%22stacking%22%3A%22normal%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22limit_displayed_rows%22%3Afalse%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22show_row_numbers%22%3Atrue%2C%22truncate_column_names%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22table_theme%22%3A%22editable%22%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22type%22%3A%22looker_column%22%2C%22series_types%22%3A%7B%7D%2C%22hidden_series%22%3A%5B%5D%2C%22colors%22%3A%5B%22palette%3A+Tomato+to+Steel+Blue%22%5D%2C%22series_colors%22%3A%7B%7D%7D&filter_config=%7B%22teams.name%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Liverpool%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%2C%22players.total_goals_scored_tier%22%3A%5B%7B%22type%22%3A%22%21is%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Below+1%22%7D%5D%2C%22id%22%3A3%2C%22error%22%3Afalse%7D%5D%7D",
+                "query_timezone": "America/Los_Angeles",
+                "has_table_calculations": false,
+                "model": "fntsypl",
+                "can": {
+                    "run": true,
+                    "see_results": true,
+                    "explore": true,
+                    "create": true,
+                    "show": true,
+                    "cost_estimate": true,
+                    "index": true,
+                    "see_lookml": true,
+                    "see_derived_table_lookml": true,
+                    "see_sql": true,
+                    "generate_drill_links": true,
+                    "download": true,
+                    "use_custom_fields": true,
+                    "render": true
+                }
+            },
+            "query_id": 120774,
+            "edit_uri": null,
+            "merge_result_id": null,
+            "result_maker_id": 4524,
+            "result_maker": {
+                "id": 4524,
+                "dynamic_fields": null,
+                "filterables": [
+                    {
+                        "model": "fntsypl",
+                        "view": "players",
+                        "name": null,
+                        "listen": [],
+                        "can": {}
+                    }
+                ],
+                "sorts": [
+                    "fixtures.event",
+                    "players.web_name"
+                ],
+                "merge_result_id": null,
+                "total": null,
+                "query_id": 120774,
+                "query": {
+                    "id": 120774,
+                    "view": "players",
+                    "fields": [
+                        "players_detail.total_goals_scored",
+                        "players.web_name",
+                        "players_detail.round"
+                    ],
+                    "pivots": [
+                        "players.web_name"
+                    ],
+                    "fill_fields": null,
+                    "filters": {
+                        "teams.name": "Liverpool",
+                        "players.total_goals_scored_tier": "-Below 1"
+                    },
+                    "filter_expression": null,
+                    "sorts": [
+                        "fixtures.event",
+                        "players.web_name"
+                    ],
+                    "limit": "500",
+                    "column_limit": null,
+                    "total": null,
+                    "row_total": null,
+                    "subtotals": null,
+                    "runtime": 0.146565,
+                    "vis_config": {
+                        "stacking": "normal",
+                        "show_value_labels": false,
+                        "label_density": 25,
+                        "legend_position": "center",
+                        "x_axis_gridlines": false,
+                        "y_axis_gridlines": true,
+                        "show_view_names": false,
+                        "limit_displayed_rows": false,
+                        "y_axis_combined": true,
+                        "show_y_axis_labels": true,
+                        "show_y_axis_ticks": true,
+                        "y_axis_tick_density": "default",
+                        "y_axis_tick_density_custom": 5,
+                        "show_x_axis_label": true,
+                        "show_x_axis_ticks": true,
+                        "x_axis_scale": "auto",
+                        "y_axis_scale_mode": "linear",
+                        "x_axis_reversed": false,
+                        "y_axis_reversed": false,
+                        "ordering": "none",
+                        "show_null_labels": false,
+                        "show_totals_labels": false,
+                        "show_silhouette": false,
+                        "totals_color": "#808080",
+                        "show_row_numbers": true,
+                        "truncate_column_names": false,
+                        "hide_totals": false,
+                        "hide_row_totals": false,
+                        "table_theme": "editable",
+                        "enable_conditional_formatting": false,
+                        "conditional_formatting_include_totals": false,
+                        "conditional_formatting_include_nulls": false,
+                        "type": "looker_column",
+                        "series_types": {},
+                        "hidden_series": [],
+                        "colors": [
+                            "palette: Tomato to Steel Blue"
+                        ],
+                        "series_colors": {}
+                    },
+                    "filter_config": {
+                        "teams.name": [
+                            {
+                                "type": "=",
+                                "values": [
+                                    {
+                                        "constant": "Liverpool"
+                                    },
+                                    {}
+                                ],
+                                "id": 0,
+                                "error": false
+                            }
+                        ],
+                        "players.total_goals_scored_tier": [
+                            {
+                                "type": "!is",
+                                "values": [
+                                    {
+                                        "constant": "Below 1"
+                                    }
+                                ],
+                                "id": 3,
+                                "error": false
+                            }
+                        ]
+                    },
+                    "visible_ui_sections": null,
+                    "slug": "9pPYK9H",
+                    "dynamic_fields": null,
+                    "client_id": "cmhGt99lZVbt6dAHBirgMG",
+                    "share_url": "https://saleseng.dev.looker.com/x/cmhGt99lZVbt6dAHBirgMG",
+                    "expanded_share_url": "https://saleseng.dev.looker.com/explore/fntsypl/players?fields=players_detail.total_goals_scored,players.web_name,players_detail.round&pivots=players.web_name&f[teams.name]=Liverpool&f[players.total_goals_scored_tier]=-Below+1&sorts=fixtures.event,players.web_name&limit=500&query_timezone=America%2FLos_Angeles&vis=%7B%22stacking%22%3A%22normal%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22limit_displayed_rows%22%3Afalse%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22show_row_numbers%22%3Atrue%2C%22truncate_column_names%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22table_theme%22%3A%22editable%22%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22type%22%3A%22looker_column%22%2C%22series_types%22%3A%7B%7D%2C%22hidden_series%22%3A%5B%5D%2C%22colors%22%3A%5B%22palette%3A+Tomato+to+Steel+Blue%22%5D%2C%22series_colors%22%3A%7B%7D%7D&filter_config=%7B%22teams.name%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Liverpool%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%2C%22players.total_goals_scored_tier%22%3A%5B%7B%22type%22%3A%22%21is%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Below+1%22%7D%5D%2C%22id%22%3A3%2C%22error%22%3Afalse%7D%5D%7D&origin=share-expanded",
+                    "url": "/explore/fntsypl/players?fields=players_detail.total_goals_scored,players.web_name,players_detail.round&pivots=players.web_name&f[teams.name]=Liverpool&f[players.total_goals_scored_tier]=-Below+1&sorts=fixtures.event,players.web_name&limit=500&query_timezone=America%2FLos_Angeles&vis=%7B%22stacking%22%3A%22normal%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22limit_displayed_rows%22%3Afalse%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22show_row_numbers%22%3Atrue%2C%22truncate_column_names%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22table_theme%22%3A%22editable%22%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22type%22%3A%22looker_column%22%2C%22series_types%22%3A%7B%7D%2C%22hidden_series%22%3A%5B%5D%2C%22colors%22%3A%5B%22palette%3A+Tomato+to+Steel+Blue%22%5D%2C%22series_colors%22%3A%7B%7D%7D&filter_config=%7B%22teams.name%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Liverpool%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%2C%22players.total_goals_scored_tier%22%3A%5B%7B%22type%22%3A%22%21is%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Below+1%22%7D%5D%2C%22id%22%3A3%2C%22error%22%3Afalse%7D%5D%7D",
+                    "query_timezone": "America/Los_Angeles",
+                    "has_table_calculations": false,
+                    "model": "fntsypl",
+                    "can": {
+                        "run": true,
+                        "see_results": true,
+                        "explore": true,
+                        "create": true,
+                        "show": true,
+                        "cost_estimate": true,
+                        "index": true,
+                        "see_lookml": true,
+                        "see_derived_table_lookml": true,
+                        "see_sql": true,
+                        "generate_drill_links": true,
+                        "download": true,
+                        "use_custom_fields": true,
+                        "render": true
+                    }
+                },
+                "vis_config": {
+                    "stacking": "normal",
+                    "show_value_labels": false,
+                    "label_density": 25,
+                    "legend_position": "center",
+                    "x_axis_gridlines": false,
+                    "y_axis_gridlines": true,
+                    "show_view_names": false,
+                    "limit_displayed_rows": false,
+                    "y_axis_combined": true,
+                    "show_y_axis_labels": true,
+                    "show_y_axis_ticks": true,
+                    "y_axis_tick_density": "default",
+                    "y_axis_tick_density_custom": 5,
+                    "show_x_axis_label": true,
+                    "show_x_axis_ticks": true,
+                    "x_axis_scale": "auto",
+                    "y_axis_scale_mode": "linear",
+                    "x_axis_reversed": false,
+                    "y_axis_reversed": false,
+                    "ordering": "none",
+                    "show_null_labels": false,
+                    "show_totals_labels": false,
+                    "show_silhouette": false,
+                    "totals_color": "#808080",
+                    "show_row_numbers": true,
+                    "truncate_column_names": false,
+                    "hide_totals": false,
+                    "hide_row_totals": false,
+                    "table_theme": "editable",
+                    "enable_conditional_formatting": false,
+                    "conditional_formatting_include_totals": false,
+                    "conditional_formatting_include_nulls": false,
+                    "type": "looker_column",
+                    "series_types": {},
+                    "hidden_series": [],
+                    "colors": [
+                        "palette: Tomato to Steel Blue"
+                    ],
+                    "series_colors": {}
+                },
+                "can": {}
+            },
+            "can": {
+                "create": true,
+                "update": true,
+                "destroy": true,
+                "index": true,
+                "show": true,
+                "explore": true,
+                "run": false,
+                "show_errors": true,
+                "find_and_replace": true
+            }
+        },
+        {
+            "id": 3005,
+            "dashboard_id": 283,
+            "look_id": null,
+            "type": "vis",
+            "refresh_interval": null,
+            "refresh_interval_to_i": null,
+            "note_text": null,
+            "note_text_as_html": null,
+            "note_display": null,
+            "note_state": null,
+            "title_hidden": false,
+            "title_text": null,
+            "title": "Arsenal Goals by Gameweek",
+            "subtitle_text": null,
+            "body_text": null,
+            "body_text_as_html": null,
+            "look": null,
+            "query": {
+                "id": 120777,
+                "view": "players",
+                "fields": [
+                    "players_detail.total_goals_scored",
+                    "players.web_name",
+                    "players_detail.round"
+                ],
+                "pivots": [
+                    "players.web_name"
+                ],
+                "fill_fields": null,
+                "filters": {
+                    "teams.name": "Arsenal",
+                    "players.total_goals_scored_tier": "-Below 1"
+                },
+                "filter_expression": null,
+                "sorts": [
+                    "players.web_name",
+                    "players_detail.total_goals_scored desc 0"
+                ],
+                "limit": "500",
+                "column_limit": null,
+                "total": null,
+                "row_total": null,
+                "subtotals": null,
+                "runtime": 0.145431,
+                "vis_config": {
+                    "stacking": "normal",
+                    "show_value_labels": false,
+                    "label_density": 25,
+                    "legend_position": "center",
+                    "x_axis_gridlines": false,
+                    "y_axis_gridlines": true,
+                    "show_view_names": false,
+                    "limit_displayed_rows": false,
+                    "y_axis_combined": true,
+                    "show_y_axis_labels": true,
+                    "show_y_axis_ticks": true,
+                    "y_axis_tick_density": "default",
+                    "y_axis_tick_density_custom": 5,
+                    "show_x_axis_label": true,
+                    "show_x_axis_ticks": true,
+                    "x_axis_scale": "auto",
+                    "y_axis_scale_mode": "linear",
+                    "x_axis_reversed": false,
+                    "y_axis_reversed": false,
+                    "ordering": "none",
+                    "show_null_labels": false,
+                    "show_totals_labels": false,
+                    "show_silhouette": false,
+                    "totals_color": "#808080",
+                    "show_row_numbers": true,
+                    "truncate_column_names": false,
+                    "hide_totals": false,
+                    "hide_row_totals": false,
+                    "table_theme": "editable",
+                    "enable_conditional_formatting": false,
+                    "conditional_formatting_include_totals": false,
+                    "conditional_formatting_include_nulls": false,
+                    "type": "looker_column",
+                    "series_types": {},
+                    "hidden_series": [],
+                    "colors": [
+                        "palette: Tomato to Steel Blue"
+                    ],
+                    "series_colors": {}
+                },
+                "filter_config": {
+                    "teams.name": [
+                        {
+                            "type": "=",
+                            "values": [
+                                {
+                                    "constant": "Arsenal"
+                                },
+                                {}
+                            ],
+                            "id": 0,
+                            "error": false
+                        }
+                    ],
+                    "players.total_goals_scored_tier": [
+                        {
+                            "type": "!is",
+                            "values": [
+                                {
+                                    "constant": "Below 1"
+                                }
+                            ],
+                            "id": 3,
+                            "error": false
+                        }
+                    ]
+                },
+                "visible_ui_sections": null,
+                "slug": "Hy5wH4C",
+                "dynamic_fields": null,
+                "client_id": "9qH6nOltDwkfTO0jKBpzdP",
+                "share_url": "https://saleseng.dev.looker.com/x/9qH6nOltDwkfTO0jKBpzdP",
+                "expanded_share_url": "https://saleseng.dev.looker.com/explore/fntsypl/players?fields=players_detail.total_goals_scored,players.web_name,players_detail.round&pivots=players.web_name&f[teams.name]=Arsenal&f[players.total_goals_scored_tier]=-Below+1&sorts=players.web_name,players_detail.total_goals_scored+desc+0&limit=500&query_timezone=America%2FLos_Angeles&vis=%7B%22stacking%22%3A%22normal%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22limit_displayed_rows%22%3Afalse%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22show_row_numbers%22%3Atrue%2C%22truncate_column_names%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22table_theme%22%3A%22editable%22%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22type%22%3A%22looker_column%22%2C%22series_types%22%3A%7B%7D%2C%22hidden_series%22%3A%5B%5D%2C%22colors%22%3A%5B%22palette%3A+Tomato+to+Steel+Blue%22%5D%2C%22series_colors%22%3A%7B%7D%7D&filter_config=%7B%22teams.name%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Arsenal%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%2C%22players.total_goals_scored_tier%22%3A%5B%7B%22type%22%3A%22%21is%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Below+1%22%7D%5D%2C%22id%22%3A3%2C%22error%22%3Afalse%7D%5D%7D&origin=share-expanded",
+                "url": "/explore/fntsypl/players?fields=players_detail.total_goals_scored,players.web_name,players_detail.round&pivots=players.web_name&f[teams.name]=Arsenal&f[players.total_goals_scored_tier]=-Below+1&sorts=players.web_name,players_detail.total_goals_scored+desc+0&limit=500&query_timezone=America%2FLos_Angeles&vis=%7B%22stacking%22%3A%22normal%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22limit_displayed_rows%22%3Afalse%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22show_row_numbers%22%3Atrue%2C%22truncate_column_names%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22table_theme%22%3A%22editable%22%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22type%22%3A%22looker_column%22%2C%22series_types%22%3A%7B%7D%2C%22hidden_series%22%3A%5B%5D%2C%22colors%22%3A%5B%22palette%3A+Tomato+to+Steel+Blue%22%5D%2C%22series_colors%22%3A%7B%7D%7D&filter_config=%7B%22teams.name%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Arsenal%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%2C%22players.total_goals_scored_tier%22%3A%5B%7B%22type%22%3A%22%21is%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Below+1%22%7D%5D%2C%22id%22%3A3%2C%22error%22%3Afalse%7D%5D%7D",
+                "query_timezone": "America/Los_Angeles",
+                "has_table_calculations": false,
+                "model": "fntsypl",
+                "can": {
+                    "run": true,
+                    "see_results": true,
+                    "explore": true,
+                    "create": true,
+                    "show": true,
+                    "cost_estimate": true,
+                    "index": true,
+                    "see_lookml": true,
+                    "see_derived_table_lookml": true,
+                    "see_sql": true,
+                    "generate_drill_links": true,
+                    "download": true,
+                    "use_custom_fields": true,
+                    "render": true
+                }
+            },
+            "query_id": 120777,
+            "edit_uri": null,
+            "merge_result_id": null,
+            "result_maker_id": 4525,
+            "result_maker": {
+                "id": 4525,
+                "dynamic_fields": null,
+                "filterables": [
+                    {
+                        "model": "fntsypl",
+                        "view": "players",
+                        "name": null,
+                        "listen": [],
+                        "can": {}
+                    }
+                ],
+                "sorts": [
+                    "players.web_name",
+                    "players_detail.total_goals_scored desc 0"
+                ],
+                "merge_result_id": null,
+                "total": null,
+                "query_id": 120777,
+                "query": {
+                    "id": 120777,
+                    "view": "players",
+                    "fields": [
+                        "players_detail.total_goals_scored",
+                        "players.web_name",
+                        "players_detail.round"
+                    ],
+                    "pivots": [
+                        "players.web_name"
+                    ],
+                    "fill_fields": null,
+                    "filters": {
+                        "teams.name": "Arsenal",
+                        "players.total_goals_scored_tier": "-Below 1"
+                    },
+                    "filter_expression": null,
+                    "sorts": [
+                        "players.web_name",
+                        "players_detail.total_goals_scored desc 0"
+                    ],
+                    "limit": "500",
+                    "column_limit": null,
+                    "total": null,
+                    "row_total": null,
+                    "subtotals": null,
+                    "runtime": 0.145431,
+                    "vis_config": {
+                        "stacking": "normal",
+                        "show_value_labels": false,
+                        "label_density": 25,
+                        "legend_position": "center",
+                        "x_axis_gridlines": false,
+                        "y_axis_gridlines": true,
+                        "show_view_names": false,
+                        "limit_displayed_rows": false,
+                        "y_axis_combined": true,
+                        "show_y_axis_labels": true,
+                        "show_y_axis_ticks": true,
+                        "y_axis_tick_density": "default",
+                        "y_axis_tick_density_custom": 5,
+                        "show_x_axis_label": true,
+                        "show_x_axis_ticks": true,
+                        "x_axis_scale": "auto",
+                        "y_axis_scale_mode": "linear",
+                        "x_axis_reversed": false,
+                        "y_axis_reversed": false,
+                        "ordering": "none",
+                        "show_null_labels": false,
+                        "show_totals_labels": false,
+                        "show_silhouette": false,
+                        "totals_color": "#808080",
+                        "show_row_numbers": true,
+                        "truncate_column_names": false,
+                        "hide_totals": false,
+                        "hide_row_totals": false,
+                        "table_theme": "editable",
+                        "enable_conditional_formatting": false,
+                        "conditional_formatting_include_totals": false,
+                        "conditional_formatting_include_nulls": false,
+                        "type": "looker_column",
+                        "series_types": {},
+                        "hidden_series": [],
+                        "colors": [
+                            "palette: Tomato to Steel Blue"
+                        ],
+                        "series_colors": {}
+                    },
+                    "filter_config": {
+                        "teams.name": [
+                            {
+                                "type": "=",
+                                "values": [
+                                    {
+                                        "constant": "Arsenal"
+                                    },
+                                    {}
+                                ],
+                                "id": 0,
+                                "error": false
+                            }
+                        ],
+                        "players.total_goals_scored_tier": [
+                            {
+                                "type": "!is",
+                                "values": [
+                                    {
+                                        "constant": "Below 1"
+                                    }
+                                ],
+                                "id": 3,
+                                "error": false
+                            }
+                        ]
+                    },
+                    "visible_ui_sections": null,
+                    "slug": "Hy5wH4C",
+                    "dynamic_fields": null,
+                    "client_id": "9qH6nOltDwkfTO0jKBpzdP",
+                    "share_url": "https://saleseng.dev.looker.com/x/9qH6nOltDwkfTO0jKBpzdP",
+                    "expanded_share_url": "https://saleseng.dev.looker.com/explore/fntsypl/players?fields=players_detail.total_goals_scored,players.web_name,players_detail.round&pivots=players.web_name&f[teams.name]=Arsenal&f[players.total_goals_scored_tier]=-Below+1&sorts=players.web_name,players_detail.total_goals_scored+desc+0&limit=500&query_timezone=America%2FLos_Angeles&vis=%7B%22stacking%22%3A%22normal%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22limit_displayed_rows%22%3Afalse%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22show_row_numbers%22%3Atrue%2C%22truncate_column_names%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22table_theme%22%3A%22editable%22%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22type%22%3A%22looker_column%22%2C%22series_types%22%3A%7B%7D%2C%22hidden_series%22%3A%5B%5D%2C%22colors%22%3A%5B%22palette%3A+Tomato+to+Steel+Blue%22%5D%2C%22series_colors%22%3A%7B%7D%7D&filter_config=%7B%22teams.name%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Arsenal%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%2C%22players.total_goals_scored_tier%22%3A%5B%7B%22type%22%3A%22%21is%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Below+1%22%7D%5D%2C%22id%22%3A3%2C%22error%22%3Afalse%7D%5D%7D&origin=share-expanded",
+                    "url": "/explore/fntsypl/players?fields=players_detail.total_goals_scored,players.web_name,players_detail.round&pivots=players.web_name&f[teams.name]=Arsenal&f[players.total_goals_scored_tier]=-Below+1&sorts=players.web_name,players_detail.total_goals_scored+desc+0&limit=500&query_timezone=America%2FLos_Angeles&vis=%7B%22stacking%22%3A%22normal%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22limit_displayed_rows%22%3Afalse%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22show_row_numbers%22%3Atrue%2C%22truncate_column_names%22%3Afalse%2C%22hide_totals%22%3Afalse%2C%22hide_row_totals%22%3Afalse%2C%22table_theme%22%3A%22editable%22%2C%22enable_conditional_formatting%22%3Afalse%2C%22conditional_formatting_include_totals%22%3Afalse%2C%22conditional_formatting_include_nulls%22%3Afalse%2C%22type%22%3A%22looker_column%22%2C%22series_types%22%3A%7B%7D%2C%22hidden_series%22%3A%5B%5D%2C%22colors%22%3A%5B%22palette%3A+Tomato+to+Steel+Blue%22%5D%2C%22series_colors%22%3A%7B%7D%7D&filter_config=%7B%22teams.name%22%3A%5B%7B%22type%22%3A%22%3D%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Arsenal%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%2C%22players.total_goals_scored_tier%22%3A%5B%7B%22type%22%3A%22%21is%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22Below+1%22%7D%5D%2C%22id%22%3A3%2C%22error%22%3Afalse%7D%5D%7D",
+                    "query_timezone": "America/Los_Angeles",
+                    "has_table_calculations": false,
+                    "model": "fntsypl",
+                    "can": {
+                        "run": true,
+                        "see_results": true,
+                        "explore": true,
+                        "create": true,
+                        "show": true,
+                        "cost_estimate": true,
+                        "index": true,
+                        "see_lookml": true,
+                        "see_derived_table_lookml": true,
+                        "see_sql": true,
+                        "generate_drill_links": true,
+                        "download": true,
+                        "use_custom_fields": true,
+                        "render": true
+                    }
+                },
+                "vis_config": {
+                    "stacking": "normal",
+                    "show_value_labels": false,
+                    "label_density": 25,
+                    "legend_position": "center",
+                    "x_axis_gridlines": false,
+                    "y_axis_gridlines": true,
+                    "show_view_names": false,
+                    "limit_displayed_rows": false,
+                    "y_axis_combined": true,
+                    "show_y_axis_labels": true,
+                    "show_y_axis_ticks": true,
+                    "y_axis_tick_density": "default",
+                    "y_axis_tick_density_custom": 5,
+                    "show_x_axis_label": true,
+                    "show_x_axis_ticks": true,
+                    "x_axis_scale": "auto",
+                    "y_axis_scale_mode": "linear",
+                    "x_axis_reversed": false,
+                    "y_axis_reversed": false,
+                    "ordering": "none",
+                    "show_null_labels": false,
+                    "show_totals_labels": false,
+                    "show_silhouette": false,
+                    "totals_color": "#808080",
+                    "show_row_numbers": true,
+                    "truncate_column_names": false,
+                    "hide_totals": false,
+                    "hide_row_totals": false,
+                    "table_theme": "editable",
+                    "enable_conditional_formatting": false,
+                    "conditional_formatting_include_totals": false,
+                    "conditional_formatting_include_nulls": false,
+                    "type": "looker_column",
+                    "series_types": {},
+                    "hidden_series": [],
+                    "colors": [
+                        "palette: Tomato to Steel Blue"
+                    ],
+                    "series_colors": {}
+                },
+                "can": {}
+            },
+            "can": {
+                "create": true,
+                "update": true,
+                "destroy": true,
+                "index": true,
+                "show": true,
+                "explore": true,
+                "run": false,
+                "show_errors": true,
+                "find_and_replace": true
+            }
+        }
+    ],
+    "dashboard_layouts": [
+        {
+            "id": 288,
+            "dashboard_id": 283,
+            "type": "newspaper",
+            "active": true,
+            "column_width": null,
+            "width": null,
+            "deleted": false,
+            "dashboard_layout_components": [
+                {
+                    "id": 1565,
+                    "dashboard_layout_id": 288,
+                    "dashboard_element_id": 1546,
+                    "row": 0,
+                    "column": 12,
+                    "width": 12,
+                    "height": 11,
+                    "deleted": false,
+                    "can": {
+                        "index": true,
+                        "show": true,
+                        "create": true,
+                        "update": true,
+                        "destroy": true
+                    }
+                },
+                {
+                    "id": 3036,
+                    "dashboard_layout_id": 288,
+                    "dashboard_element_id": 3005,
+                    "row": 0,
+                    "column": 0,
+                    "width": 12,
+                    "height": 11,
+                    "deleted": false,
+                    "can": {
+                        "index": true,
+                        "show": true,
+                        "create": true,
+                        "update": true,
+                        "destroy": true
+                    }
+                }
+            ],
+            "can": {
+                "create": true,
+                "update": true,
+                "destroy": true,
+                "index": true,
+                "show": true
+            }
+        }
+    ],
+    "dashboard_filters": [],
+    "load_configuration": "cache_run",
+    "background_color": null,
+    "show_title": null,
+    "title_color": null,
+    "show_filters_bar": null,
+    "tile_background_color": null,
+    "tile_text_color": null,
+    "text_tile_text_color": null,
+    "last_accessed_at": "2019-02-26T17:32:24.000+00:00",
+    "created_at": "2018-06-18T16:30:40.000+00:00",
+    "deleted_at": null,
+    "deleter_id": null,
+    "edit_uri": null,
+    "lookml_link_id": null,
+    "model": null,
+    "content_favorite_id": null,
+    "deleted": false,
+    "last_viewed_at": "2019-02-26T17:32:24.000+00:00",
+    "can": {
+        "download": true,
+        "index": true,
+        "show": true,
+        "copy": true,
+        "run": true,
+        "create": true,
+        "move": true,
+        "update": true,
+        "destroy": true,
+        "recover": true,
+        "see_lookml": true,
+        "schedule": true,
+        "render": true
+    }
+}
