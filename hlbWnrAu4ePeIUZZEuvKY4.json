@@ -23,7 +23,7 @@
         "is_embed_shared_root": false,
         "is_embed_users_root": false,
         "external_id": null,
-        "child_count": 0,
+        "child_count": 1,
         "is_user_root": false,
         "is_root": false,
         "can": {
@@ -38,7 +38,7 @@
         }
     },
     "space_id": 241,
-    "view_count": 17,
+    "view_count": 20,
     "favorite_count": 0,
     "slug": "hlbWnrAu4ePeIUZZEuvKY4",
     "dashboard_elements": [
@@ -86,7 +86,7 @@
                 "total": null,
                 "row_total": null,
                 "subtotals": null,
-                "runtime": 0.146565,
+                "runtime": 2.7675020694732666,
                 "vis_config": {
                     "stacking": "normal",
                     "show_value_labels": false,
@@ -231,7 +231,7 @@
                     "total": null,
                     "row_total": null,
                     "subtotals": null,
-                    "runtime": 0.146565,
+                    "runtime": 2.7675020694732666,
                     "vis_config": {
                         "stacking": "normal",
                         "show_value_labels": false,
@@ -426,7 +426,7 @@
                 "total": null,
                 "row_total": null,
                 "subtotals": null,
-                "runtime": 0.145431,
+                "runtime": 2.830631971359253,
                 "vis_config": {
                     "stacking": "normal",
                     "show_value_labels": false,
@@ -571,7 +571,7 @@
                     "total": null,
                     "row_total": null,
                     "subtotals": null,
-                    "runtime": 0.145431,
+                    "runtime": 2.830631971359253,
                     "vis_config": {
                         "stacking": "normal",
                         "show_value_labels": false,
@@ -786,7 +786,7 @@
     "tile_background_color": null,
     "tile_text_color": null,
     "text_tile_text_color": null,
-    "last_accessed_at": "2019-02-26T17:32:24.000+00:00",
+    "last_accessed_at": "2019-03-01T21:44:14.000+00:00",
     "created_at": "2018-06-18T16:30:40.000+00:00",
     "deleted_at": null,
     "deleter_id": null,
@@ -795,7 +795,7 @@
     "model": null,
     "content_favorite_id": null,
     "deleted": false,
-    "last_viewed_at": "2019-02-26T17:32:24.000+00:00",
+    "last_viewed_at": "2019-03-01T21:44:14.000+00:00",
     "can": {
         "download": true,
         "index": true,
